@@ -30,11 +30,11 @@ class Room {
     // Your code should make it impossible to represent a direction that doesn't exist.
     // - Required: At every room with multiple exits, the player chooses where to go. Show the available exits clearly.
     // - Required: When the player enters a room, the game checks what's there without assuming anything is present.
-    let name
-    let discription
-    let exits: [String]
-    let roomType
-    enum 
+    let name: String
+    let discription: String
+    let exits: direction
+    let typeOfRoom: String
+    
 }
 
 class Item {
